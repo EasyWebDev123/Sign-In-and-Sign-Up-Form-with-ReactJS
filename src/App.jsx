@@ -1,9 +1,10 @@
-import Header from "./Header"
+import LoginSignup from "./Components/LoginSignup/LoginSignup"
+
 
 function App() {
   return (
     <>
-    <Header/>
+    <LoginSignup/>
     </>
   )
 }
