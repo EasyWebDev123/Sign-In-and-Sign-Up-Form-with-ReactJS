@@ -16,19 +16,19 @@ const LoginSignup = () => {
       <div className="inputs">
         <div className="input">
           <img src={person_icon} alt="" />
-          <input type="text" placeholder='Name' aria-label='Name' />
+          <input type="text" placeholder='Name' aria-label='Name'/>
         </div>
         <div className="input">
           <img src={email_icon} alt="" />
-          <input type="email" placeholder='Email' aria-label='Email' />
+          <input type="email" placeholder='Email' aria-label='Email'/>
         </div>
         <div className="input">
           <img src={password_icon} alt="" />
-          <input type="password" placeholder='Password' aria-label='Password' />
+          <input type="password" placeholder='Password' aria-label='Password'/>
         </div>
       </div>
 
-      <div className="forget-password">Forget Password? </div>
+      <div className="forget-password">Forget Password? <a href="#">Click Here!</a></div>
 
       <div className="submit-container">
         <div className="submit">Sign Up</div>

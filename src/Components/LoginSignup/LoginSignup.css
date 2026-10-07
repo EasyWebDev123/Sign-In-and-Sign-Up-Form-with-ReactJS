@@ -60,7 +60,7 @@
   color: #797979;
   font-size: 17px;
 }
-.forget-password span{
+.forget-password a{
   color: #07787e;
   cursor: pointer;
   font-size: 20px;
